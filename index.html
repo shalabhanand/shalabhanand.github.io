@@ -1,21 +1,113 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>  My Webpage </title>
-    <style>
-  body {
-    background-color: black;
-    text-align: center;
-    padding: 200px;
-  }
-  h1 {
-    font-size: 60px;
-    color: #eeee33;
-  }
-</style>
+<head>
+    <title>My Personal Webpage</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="wrapper">
     
-  </head>
-  <body>
-    <h1> This is Shalabh </h1>
-    <a href="first.html">Click Here </a>
-  </body>
- <html>
+	<div id="header">
+		<div id="nav"><a href="index.html">Home</a> | <a href="me.html">About Me</a> | <a href="work.html">Research</a> | <a href="publications.html">Publications</a> </div>
+		<div id="bg"></div>
+	</div>
+<!-------------------CONTENT STARTS FROM HERE------------------------------------------>
+	<div id="main-content">
+		<div>
+
+<!-------------------LEFT SIDE OF THE PAGE------------------------------------------>
+		<div id="left-column">
+			<div id="logo">
+			Welcome to Shalabh's Webpage
+			</div>
+
+<!-------------------BLURB ABOUT ME------------------------------------------>
+			<div class="box">
+        		<p><img src="main.jpg
+" width="220" height="250" style="margin: 0 10px 10px 0;float:center;" /> </p>
+			<h0><strong>Shalabh Kumar Anand</strong></h0>
+			<h2>Blurb About Me</h2>
+			<p>Postdoctoral researcher <br> Department of Bioengineering, <br> Imperial College London.</p>
+			<a href="CV_Shalabh.pdf"> Curriculum Vitae </a>
+			</div>
+<!-------------------BLURB ABOUT ME------------------------------------------>
+
+<!-------------------RECENT NEWS------------------------------------------>
+			<div class="box">
+        		<h1>Recent News</h1>
+		<div> <marquee onmouseover="this.stop();"
+                onmouseout="this.start();" scrollamount="3"
+                direction="up" loop="true" scrolldelay="60"
+                height="220px">
+                <p><p> <ol>
+                	<li>Our work on study of phase separation of active colloidal suspension via Quorum-sensing is published in Soft Matter. Check out the Publications page for details: <a href="https://doi.org/10.1039/D0SM02131H" target="_blank">Soft Matter, 2021</a>.</li>
+			<li>Our work on study of conformation and dynamics of a self-avoiding active flexible polymer is published in Physical Review E. Check out the Publications page for details: <a href="https://doi.org/10.1103/PhysRevE.101.030501" target="_blank">Physical Review E 101 (3), 030501, 2020</a>.</li>
+			</ol> </p><br>
+        		</marquee> </div>
+
+			</div>
+<!-------------------RECENT NEWS------------------------------------------>
+<!-------------------ENF OF THE LEFT SIDE------------------------------------------>
+
+		</div>
+
+<!-------------------RIGHT SIDE OF THE PAGE------------------------------------------>
+		<div id="right-column">
+			<div class="box">
+			<h3>Contact Me Here</h3>
+				<ul>
+				<li>Room No. 403<br> Academic Building 1 <br> <a href="https://www.iiserb.ac.in/" target="_blank">IISER Bhopal</a> <br> Bhopal Bypass Road, Bhauri <br>Bhopal 462 066 <br> Madhya Pradesh, INDIA</li>
+<!--				<li>Phone: +91 755  669 1218</li> -->
+				<li>Email-Id: shalabh.anand@imperial.ac.uk</li>
+				</ul>
+			</div>
+
+			<div class="box">
+			<h3>Find Me Elsewhere</h3>
+				<ul>
+				<li><a href="http://twitter.com" target="_blank">Twitter</a></li>
+				<li><a href="https://www.researchgate.net/profile/Shalabh_Anand" target="_blank">Researchgate</a></li>
+				<li><a href="https://scholar.google.com/citations?user=EJ-4Si0AAAAJ&hl=en" target="_blank">Google Scholar</a></li>
+				</ul>
+			</div>
+
+			<div class="box">
+        		<h1>What You'll Find Here</h1>
+<!--        		<p>Upcoming and recent conferences in Soft Matter Physics: </p>  -->
+<!--				<a href="conf-list.html" target="">List of conferences and seminars</a>  -->
+			</div>
+
+		</div>
+		</div>
+<!-------------------ENF OF THE RIGHT SIDE------------------------------------------>
+
+<!-------------------CENTRE OF THE PAGE------------------------------------------>
+		<div id="center">
+
+			<h3>Soft Matter Physics</h3>
+
+		<div class="box">
+       		<h1>Research interests</h1>
+       		<p>I am a condensed matter theorist working at the interface of soft condensed matter physics, materials science, and biology. I develop and apply the tools of statistical and computational physics to study physical and biological systems, including biological motors, synthetic molecular machines, colloids, thermoelectric machines, biological fluids, and active matter. I follow an interdisciplinary approach working closely with physicists, chemists, chemical engineers, materials scientists, and specialists in machine learning.</p>
+		</div>
+
+			<p>
+<!---				<img src="http://img189.imageshack.us/img189/9177/paperru.jpg
+" width="139" height="150" style="margin: 0 10px 10px 0;float:left;" /> --->
+				<p><img src="active_pol.png " width="450" height="180" style="margin: 0 10px 10px 0;float:left;" /> <h0>Dynamic structures adopted by an active polymer chain</h0></p>
+				<p><video width="230" height="180" style="margin: 0 10px 10px 0;float:left;" controls> <source src="gam001pe3.mp4" type="video/mp4"></video>
+				<video width="230" height="180" style="margin: 0 10px 10px 0;float:right;" controls> <source src="gam0pe5.mp4" type="video/mp4"> </video> </p> <h0>Microswimmers under confinement in presence of flow</h0>
+				<p><img src="clamped.png " width="450" height="200" style="margin: 0 10px 10px 0;float:left;" /> <h0>Motional phases of a clamped active filament</h0></p>
+			</p>
+		</div>
+	</div>
+<!-------------------END OF THE CENTRE------------------------------------------>
+
+	<div id="footer">
+		Designed By: Shalabh <br/>
+<!--		Layout adapted from <a href="http://www.web-designers-directory.org/" target="_blank">Web Designers' Directory</a>. -->
+	</div>
+</div>
+
+</body>
+</html>
