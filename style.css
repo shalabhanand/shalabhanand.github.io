@@ -48,9 +48,8 @@ p {
 }
 
 #center-text {
-	padding: 0px 0px 1px;
-	width:725px;
-	float:right;
+	margin:0 auto;
+	width:800px;
 }
 
 #left-column {
@@ -67,6 +66,12 @@ p {
 
 #right-column {
 	width:300px;
+	float:right;
+}
+
+#right-text {
+	padding: 0px 0px 1px;
+	width:725px;
 	float:right;
 }
 
