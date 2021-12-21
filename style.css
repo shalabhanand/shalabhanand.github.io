@@ -48,8 +48,9 @@ p {
 }
 
 #center-text {
-	margin:0 auto;
+	padding: 0px 20px 10px;
 	width:800px;
+	float:right;
 }
 
 #left-column {
