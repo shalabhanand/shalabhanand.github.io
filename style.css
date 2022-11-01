@@ -179,3 +179,9 @@ ul {
 	font:normal 18px Georgia, serif;
 	color:#fa7393;
 }
+.overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
