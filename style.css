@@ -184,5 +184,11 @@ ul {
   height: 100%;
   width: 100%;
   overflow: hidden;
+}
+.video-text {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
   align-self: center;
 }
