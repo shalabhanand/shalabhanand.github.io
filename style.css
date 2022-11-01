@@ -179,9 +179,10 @@ ul {
 	font:normal 18px Georgia, serif;
 	color:#fa7393;
 }
-.overlay {
+.video-cont {
   position: relative;
   height: 100%;
   width: 100%;
   overflow: hidden;
+  align-self: center;
 }
