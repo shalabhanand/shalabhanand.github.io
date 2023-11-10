@@ -16,6 +16,8 @@ p {
 	padding:0;
 }
 
+#p2 { text-align: center; }
+
 #wrapper {
 	margin:0 auto;
 	width:1200px;
