@@ -69,8 +69,8 @@ clear: both;
 }
 
 #bottom-left {
-	width:720px;
-	padding:0 30px 30px;
+	width:820px;
+	padding:0 0px 0px;
 	float:left;
 }
 
@@ -87,7 +87,7 @@ clear: both;
 
 #bottom-right {
 	width:350px;
-	padding:0 30px 30px;
+	padding:0 0px 0px;
 	float:right;
 }
 
