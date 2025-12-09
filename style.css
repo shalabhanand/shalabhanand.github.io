@@ -22,6 +22,11 @@ p {
 	border-left:1px solid #f0e9eb;
 	border-right:1px solid #f0e9eb;
 }
+#wrapper::after {
+content: "";
+display: table;
+clear: both;
+}
 
 #header {
 	margin:0 1px;
