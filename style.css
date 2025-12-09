@@ -75,7 +75,7 @@ clear: both;
 }
 
 #right-text {
-	padding: 0 0 1px 1px;
+	padding: 0 0 1px 5px;
 	width:890px;
 	float:right;
 }
