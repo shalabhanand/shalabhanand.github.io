@@ -65,7 +65,7 @@ clear: both;
 
 #bottom-left {
 	width:820px;
-	padding:0 1px 1px;
+	padding:0 5px 5px;
 	float:left;
 }
 
@@ -82,7 +82,7 @@ clear: both;
 
 #bottom-right {
 	width:350px;
-	padding:0 1px 1px;
+	padding:0 5px 5px;
 	float:right;
 }
 
