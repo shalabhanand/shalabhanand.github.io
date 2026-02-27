@@ -30,6 +30,11 @@ p {
     margin: 0 auto;
     overflow: hidden;
 }
+/* Target the LinkedIn container or iframe */
+.linkedin-embed-container iframe {
+    max-width: 100% !important;
+    width: 100% !important;
+}
 
 #header {
 	margin:0 1px;
