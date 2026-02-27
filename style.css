@@ -23,6 +23,14 @@ p {
 	border-right:1px solid #f0e9eb;
 }
 
+.li-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 550px; /* LinkedIn's standard max width */
+    margin: 0 auto;
+    overflow: hidden;
+}
+
 #header {
 	margin:0 1px;
 }
